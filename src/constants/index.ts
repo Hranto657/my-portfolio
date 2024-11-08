@@ -10,107 +10,110 @@ import {
   RxDashboard,
   RxLinkedinLogo,
   RxGithubLogo,
-} from "react-icons/rx";
-import { SlPaperPlane } from "react-icons/sl";
+} from 'react-icons/rx';
+import { FaTelegram } from 'react-icons/fa';
 
 export const Socials = [
   {
-    name: "Linkedin",
+    name: 'Linkedin',
     icon: RxLinkedinLogo,
+    href: 'https://www.linkedin.com/in/h-simonyan/',
   },
   {
-    name: "Telegram",
-    icon: SlPaperPlane,
+    name: 'Telegram',
+    icon: FaTelegram,
+    href: 'https://t.me/Hranto657',
   },
   {
-    name: "GitHub",
+    name: 'GitHub',
     icon: RxGithubLogo,
+    href: 'https://github.com/Hranto657',
   },
 ];
 
 export const NavLinks = [
   {
-    name: "Home",
+    name: 'Home',
     icon: RxHome,
-    link: "/",
+    link: '/',
   },
   {
-    name: "About me",
+    name: 'About me',
     icon: RxPerson,
-    link: "/about-me",
+    link: '/about-me',
   },
   {
-    name: "Projects",
+    name: 'Projects',
     icon: RxDashboard,
-    link: "/my-projects",
+    link: '/my-projects',
   },
 ];
 
 export const ProImages = [
   {
-    src: "/assets/projects/SpaceCity.jpg",
+    src: '/assets/projects/SpaceCity.jpg',
   },
   {
-    src: "/assets/projects/SpaceCity1.jpg",
+    src: '/assets/projects/SpaceCity1.jpg',
   },
   {
-    src: "/assets/projects/SpaceCity2.jpg",
+    src: '/assets/projects/SpaceCity2.jpg',
   },
   {
-    src: "/assets/projects/SpaceCity3.jpg",
+    src: '/assets/projects/SpaceCity3.jpg',
   },
 ];
 
 export const ProImages2 = [
   {
-    src: "/assets/projects/Orange1.jpeg",
+    src: '/assets/projects/Orange1.jpeg',
   },
   {
-    src: "/assets/projects/Orange2.jpeg",
+    src: '/assets/projects/Orange2.jpeg',
   },
   {
-    src: "/assets/projects/Orange3.jpeg",
+    src: '/assets/projects/Orange3.jpeg',
   },
   {
-    src: "/assets/projects/Orange4.jpeg",
+    src: '/assets/projects/Orange4.jpeg',
   },
 ];
 
 export const ServiceData = [
   {
     icon: RxReader,
-    title: "Seo",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    backgroundImage: "/assets/space/SpaceCity7.jpeg",
+    title: 'Seo',
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    backgroundImage: '/assets/space/SpaceCity7.jpeg',
   },
   {
     icon: RxCrop,
-    title: "Development",
-    content: "Lorem ipsum dolor sit /amet, consectetur adipiscing elit.",
-    backgroundImage: "/assets/space/SpaceCity9.jpeg",
+    title: 'Development',
+    content: 'Lorem ipsum dolor sit /amet, consectetur adipiscing elit.',
+    backgroundImage: '/assets/space/SpaceCity9.jpeg',
   },
   {
     icon: RxPencil2,
-    title: "Branding",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    backgroundImage: "/assets/space/SpaceCity1.jpg",
+    title: 'Branding',
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    backgroundImage: '/assets/space/SpaceCity1.jpg',
   },
   {
     icon: RxDesktop,
-    title: "Design",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    backgroundImage: "/assets/space/SpaceCity6.jpeg",
+    title: 'Design',
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    backgroundImage: '/assets/space/SpaceCity6.jpeg',
   },
   {
     icon: RxAccessibility,
-    title: "Management",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    backgroundImage: "/assets/space/SpaceCity5.jpeg",
+    title: 'Management',
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    backgroundImage: '/assets/space/SpaceCity5.jpeg',
   },
   {
     icon: RxRocket,
-    title: "Production",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    backgroundImage: "/assets/space/SpaceCity8.jpeg",
+    title: 'Production',
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    backgroundImage: '/assets/space/SpaceCity8.jpeg',
   },
 ];
