@@ -1,19 +1,21 @@
-import ServiceSlider from "@/components/ServiceSlider";
-import Image from "next/image";
-import React from "react";
+import React from 'react';
+import Image from 'next/image';
+import ServiceSlider from '@/components/ServiceSlider';
 
 const Page = () => {
   return (
-    <div className="flex items-center bg-[#0C011A] h-screen overflow-hidden">
-      <div className="pl-20 md:pl-60 flex flex-col gap-3 pb-60 md:pb-0">
-        <h1 className="text-[50px] text-white font-semibold">
+    <div className="flex h-screen flex-col items-center justify-between overflow-hidden sm:max-w-screen-sm sm:justify-center sm:px-4 md:max-w-screen-md md:flex-col md:px-10 lg:max-w-screen-lg lg:flex-row lg:px-10">
+      <div className="sm: mb-4 flex flex-col gap-3 pb-60 sm:pb-0 lg:mb-0 lg:mr-4 lg:w-[42%]">
+        <h1 className="text-[50px] font-semibold text-white">
           My Skills <span className="text-red-500">.</span>
         </h1>
-        <p className="max-w-[350px] text-[16px] text-gray-200 md:text-gray-400">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero sequi
-          accusamus odit, porro quis, similique culpa atque ratione architecto
-          in consectetur maxime recusandae! Sunt sit nam excepturi? Optio, harum
-          deleniti!
+        <p className="text-[16px] text-gray-200 md:text-gray-400">
+          I am a Frontend Developer with over two years of experience, specializing in JavaScript,
+          TypeScript, and ReactJS. My approach focuses on building fast, responsive, and
+          user-friendly applications. I also work with backend technologies like Node.js and AWS
+          Amplify, enabling me to contribute to full-stack projects. I am familiar with React Query,
+          React Hook Form, GraphQL, and Context API—tools that simplify data handling and state
+          management. I am committed to clean code and enhancing user experience.
         </p>
       </div>
       <div className="absolute -left-36 bottom-6 rotate-12 animate-pulse duration-75">
@@ -22,7 +24,7 @@ const Page = () => {
           alt="bulb"
           width={260}
           height={260}
-          className="w-full h-full hidden md:block"
+          className="hidden h-full w-full sm:block"
         />
       </div>
       <ServiceSlider />

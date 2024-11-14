@@ -3,7 +3,7 @@ import Particle from '@/components/Particle';
 
 export default function Home() {
   return (
-    <main className="md:px-10md:max-w-screen-md relative flex h-screen w-full items-center sm:max-w-screen-sm sm:px-4 md:max-w-screen-md md:px-10 lg:max-w-screen-lg lg:px-10">
+    <main className="relative flex h-screen w-full items-center sm:max-w-screen-sm sm:px-4 md:max-w-screen-md md:px-10 lg:max-w-screen-lg lg:px-10">
       <div className="absolute right-0 top-0 z-[2] h-full w-[80%]">
         <Particle />
       </div>

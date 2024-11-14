@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} mx-auto w-full max-w-lg bg-[url('/assets/bg-explosion.png')] bg-cover bg-center bg-no-repeat px-0 antialiased sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg`}
+        className={`${geistSans.variable} ${geistMono.variable} mx-auto w-full max-w-max bg-[url('/assets/bg-explosion.png')] bg-cover bg-center bg-no-repeat px-0 antialiased sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg`}
       >
         <Navbar />
         <Sidebar />

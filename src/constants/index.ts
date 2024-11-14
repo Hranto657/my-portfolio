@@ -1,16 +1,4 @@
-import {
-  RxCrop,
-  RxDesktop,
-  RxPencil2,
-  RxReader,
-  RxRocket,
-  RxAccessibility,
-  RxHome,
-  RxPerson,
-  RxDashboard,
-  RxLinkedinLogo,
-  RxGithubLogo,
-} from 'react-icons/rx';
+import { RxHome, RxPerson, RxDashboard, RxLinkedinLogo, RxGithubLogo } from 'react-icons/rx';
 import { FaTelegram } from 'react-icons/fa';
 
 export const Socials = [
@@ -81,39 +69,51 @@ export const ProImages2 = [
 
 export const ServiceData = [
   {
-    icon: RxReader,
-    title: 'Seo',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'JavaScript',
     backgroundImage: '/assets/space/SpaceCity7.jpeg',
   },
   {
-    icon: RxCrop,
-    title: 'Development',
-    content: 'Lorem ipsum dolor sit /amet, consectetur adipiscing elit.',
+    title: 'TypeScript',
     backgroundImage: '/assets/space/SpaceCity9.jpeg',
   },
   {
-    icon: RxPencil2,
-    title: 'Branding',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'React JS',
     backgroundImage: '/assets/space/SpaceCity1.jpg',
   },
   {
-    icon: RxDesktop,
-    title: 'Design',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'HTML',
     backgroundImage: '/assets/space/SpaceCity6.jpeg',
   },
   {
-    icon: RxAccessibility,
-    title: 'Management',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'CSS',
     backgroundImage: '/assets/space/SpaceCity5.jpeg',
   },
   {
-    icon: RxRocket,
-    title: 'Production',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'AWS',
+    backgroundImage: '/assets/space/SpaceCity8.jpeg',
+  },
+  {
+    title: 'Amplify Framework',
+    backgroundImage: '/assets/space/SpaceCity8.jpeg',
+  },
+  {
+    title: 'React Hook Form',
+    backgroundImage: '/assets/space/SpaceCity8.jpeg',
+  },
+  {
+    title: 'React Query',
+    backgroundImage: '/assets/space/SpaceCity8.jpeg',
+  },
+  {
+    title: 'GraphQL',
+    backgroundImage: '/assets/space/SpaceCity8.jpeg',
+  },
+  {
+    title: 'Rest API',
+    backgroundImage: '/assets/space/SpaceCity8.jpeg',
+  },
+  {
+    title: 'Node JS',
     backgroundImage: '/assets/space/SpaceCity8.jpeg',
   },
 ];
