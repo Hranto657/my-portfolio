@@ -1,4 +1,4 @@
-import { RxHome, RxPerson, RxDashboard, RxLinkedinLogo, RxGithubLogo } from 'react-icons/rx';
+import { RxHome, RxPerson, RxLinkedinLogo, RxGithubLogo } from 'react-icons/rx';
 import { FaTelegram } from 'react-icons/fa';
 
 export const Socials = [
@@ -30,11 +30,11 @@ export const NavLinks = [
     icon: RxPerson,
     link: '/about-me',
   },
-  {
-    name: 'Projects',
-    icon: RxDashboard,
-    link: '/my-projects',
-  },
+  // {
+  //   name: 'Projects',
+  //   icon: RxDashboard,
+  //   link: '/my-projects',
+  // },
 ];
 
 export const ProImages = [
